@@ -70,7 +70,7 @@ nav a {
 }
 
 .artist1 {
-    width: 550px;    
+    width: 50%;    
     padding-left: 50px;
     float: left;
   }
@@ -133,6 +133,7 @@ h2 {
 
 .form {
     padding-bottom: 50px;
+    background: #FAFAFA;
 }
 .pad {
     padding: 30px;
