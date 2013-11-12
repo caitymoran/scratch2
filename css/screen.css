@@ -8,8 +8,14 @@ body {
     height:70px;
     padding-top: 10px;}
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #31D6C2;
+}
 
-
+nav a {
+  color: #31D6C2;
+}
 .heroimg {
     height:100%;}
 
@@ -48,11 +54,15 @@ body {
     height: 100%;
     width: 550px;
     float: right;
-    background: white;
+/*    background: white;
+*/    margin: 0;
+    padding: 0;
 }
 .artist{
     text-align: right;
     list-style-type: none;
+    margin-left: 0;
+    padding: 0;
 }
 
 .artist img {
@@ -60,19 +70,21 @@ body {
 }
 
 .artist1 {
-    width: 500px;
+    width: 550px;    
     padding-left: 50px;
-}
+    float: left;
+  }
 
 .artist2 {
     width: 550px;
     float: right;
-    padding-right: 50px;
+    padding: 10px 50px 10px 10px;
+    background: white;
 
 }
 
 h2 {
-    color: aquamarine;
+    color: #58FDC6;
     display: inline;
     font-size: 70px;
 }
@@ -124,4 +136,8 @@ h2 {
 }
 .pad {
     padding: 30px;
+}
+.artbackground {
+  background: white;
+  padding: 10px;
 }
